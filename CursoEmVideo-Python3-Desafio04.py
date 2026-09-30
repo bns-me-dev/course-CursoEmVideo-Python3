@@ -1,6 +1,11 @@
 print('===== DESAFIO 04 =====')
-num1 = int(input('Digite um número '))
-num2 = int(input('Digite outro número '))
-soma = num1 + num2
-
-print('A soma entre {} e {} é {}!'.format(num1, num2, soma))
+text = input('Digite algo: ')
+print('O valor digitado é:', text)
+print('O tipo primitivo desse valor é:', type(text))    
+print('Só tem espaços?', text.isspace())
+print('É um número?', text.isnumeric()) 
+print('É alfabético?', text.isalpha())
+print('É alfanumérico?', text.isalnum())    
+print('Está em maiúsculas?', text.isupper())
+print('Está em minúsculas?', text.islower())
+print('Está capitalizada?', text.istitle())
