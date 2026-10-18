@@ -1,0 +1,5 @@
+print('===== DESAFIO 26 =====')
+stg = str(input('Digite uma frase: ')).strip()
+print('A letra A aparece {} vezes na frase'.format(stg.lower().count('a')))
+print('A primeira letra A aparece na posição {}'.format(stg.lower().find('a') + 1))
+print('A última letra A aparece na posição {}'.format(stg.lower().rfind('a') + 1))
