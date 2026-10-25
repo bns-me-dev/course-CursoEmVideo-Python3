@@ -1,6 +1,6 @@
 from random import choice
 
-print('===== DESAFIO 19 =====')
+print('19 - Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome dos alunos e escrevendo na tela o nome do escolhido.\n')
 stg1 = input('Digite o nome do aluno 1: ')
 stg2 = input('Digite o nome do aluno 2: ')  
 stg3 = input('Digite o nome do aluno 3: ')

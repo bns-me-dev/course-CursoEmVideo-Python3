@@ -1,4 +1,4 @@
-print('===== DESAFIO 04 =====')
+print('4 - Faça um programa que leia algo pelo teclado e mostre na tela o seu tipo primitivo e todas as informações possíveis sobre ele.\n')
 text = input('Digite algo: ')
 print('O valor digitado é:', text)
 print('O tipo primitivo desse valor é:', type(text))    

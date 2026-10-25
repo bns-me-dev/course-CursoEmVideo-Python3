@@ -1,4 +1,4 @@
-print('===== DESAFIO 35 =====')
+print('35 - Desenvolva um programa que leia o comprimento de três retas e diga ao usuário se elas podem ou não formar um triângulo.\n')
 num1 = int(input('Informe o comprimento da primeira reta: '))
 num2 = int(input('Informe o comprimento da segunda reta: '))
 num3 = int(input('Informe o comprimento da terceira reta: '))

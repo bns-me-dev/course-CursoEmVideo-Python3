@@ -1,4 +1,4 @@
-print('===== DESAFIO 02 =====')
+print('2 - Faça um programa que leia o dia, mês e ano de nascimento do usuário.\n')
 diaNasc = input('Dia = ')
 mesNasc = input('Mes = ')
 anoNasc = input('Ano = ')

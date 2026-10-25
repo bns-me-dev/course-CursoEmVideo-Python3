@@ -1,4 +1,4 @@
-print('===== DESAFIO 33 =====')
+print('33 - Faça um programa que leia três números e mostre qual é o maior e qual é o menor.\n')
 num1 = int(input('Digite o primeiro número: '))
 num2 = int(input('Digite o segundo número: '))
 num3 = int(input('Digite o terceiro número: '))

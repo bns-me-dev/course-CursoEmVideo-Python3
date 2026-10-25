@@ -1,5 +1,6 @@
 from datetime import date
-print('===== DESAFIO 32 =====')
+
+print('32 - Faça um programa que leia um ano qualquer e mostre se ele é bissexto.\n')
 num = int(input('Informe o ano que deseja analisar, ou digite 0 para analisar o ano atual: '))
 
 if num == 0:

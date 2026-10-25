@@ -1,6 +1,6 @@
 from datetime import date
 
-print('===== DESAFIO 41 =====')
+print('41 - A Confederação Nacional de Natação precisa de um programa que leia o ano de nascimento de um atleta e mostre sua categoria, de acordo com a idade:\n    – Até 9 anos: MIRIM\n    – Até 14 anos: INFANTIL\n    – Até 19 anos: JÚNIOR\n    – Até 25 anos: SÊNIOR\n    – Acima de 25 anos: MASTER\n')
 num1 = int(input('Informe o ano do seu nascimento: '))
 num2 = date.today().year
 num3 = num2 - num1

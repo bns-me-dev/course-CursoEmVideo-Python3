@@ -1,4 +1,4 @@
-print('===== DESAFIO 44 =====')
+print('44 - Elabore um programa que calcule o valor a ser pago por um produto, considerando o seu preço normal e condição de pagamento:\n    – à vista dinheiro/cheque: 10% de desconto\n    – à vista no cartão: 5% de desconto\n    – em até 2x no cartão: preço formal\n    – 3x ou mais no cartão: 20% de juros\n')
 num1 = float(input('Informe o preço do produto: R$ '))
 print('Formas de pagamento:\n 1 - À vista (dinheiro/cheque) \n 2 - À vista (cartão) \n 3 - 2x no cartão \n 4 - 3x ou mais no cartão')
 num2 = int(input('Escolha a forma de pagamento: '))

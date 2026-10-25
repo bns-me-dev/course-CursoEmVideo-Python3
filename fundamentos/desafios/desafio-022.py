@@ -1,4 +1,4 @@
-print('===== DESAFIO 22 =====')
+print('22 - Crie um programa que leia o nome completo de uma pessoa e mostre:\n    – O nome com todas as letras maiúsculas e minúsculas.\n    – Quantas letras ao todo (sem considerar espaços).\n    – Quantas letras tem o primeiro nome.\n')
 stg = str(input('Digite o seu nome completo: ')).strip()
 print('Seu nome em letras maiúsculas é: {}'.format(stg.upper()))
 print('Seu nome em letras minúsculas é: {}'.format(stg.lower()))

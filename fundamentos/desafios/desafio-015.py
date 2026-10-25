@@ -1,4 +1,4 @@
-print('===== DESAFIO 15 =====')
+print('15 - Escreva um programa que pergunte a quantidade de Km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço a pagar, sabendo que o carro custa R$60 por dia e R$0,15 por Km rodado.\n')
 num = float(input('Por quantos dias você alugou o carro? '))
 num1 = float(input('Quantos km você rodou com o carro? '))
 print('O total a pagar é R$ {:.2f}'.format((num * 60) + (num1 * 0.15)))

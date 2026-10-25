@@ -1,6 +1,6 @@
 from random import randint
 
-print('===== DESAFIO 45 =====')
+print('45 - Crie um programa que faça o computador jogar Jokenpô com você.\n')
 
 num = int(input('Vamos jogar Jokenpô! Escolha um número:\n 0 para Pedra\n 1 para Papel\n 2 para Tesoura\nDigite aqui: '))
 num_comp = randint(0, 2)

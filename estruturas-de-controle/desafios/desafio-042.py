@@ -1,4 +1,4 @@
-print('===== DESAFIO 42 =====')
+print('42 - Refaça o DESAFIO 35 dos triângulos, acrescentando o recurso de mostrar que tipo de triângulo será formado:\n    – EQUILÁTERO: todos os lados iguais\n    – ISÓSCELES: dois lados iguais, um diferente\n    – ESCALENO: todos os lados diferentes\n')
 num1 = float(input('Informe o valor da primeira reta: '))
 num2 = float(input('Informe o valor da segunda reta: '))
 num3 = float(input('Informe o valor da terceira reta: '))
